@@ -1,0 +1,13 @@
+Source: binout
+Section: misc
+Priority: optional
+Maintainer: Kirill Rekhov
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.1
+Rules-Requires-Root: no
+
+Package: binout
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
