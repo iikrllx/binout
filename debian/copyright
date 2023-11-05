@@ -1,7 +1,7 @@
 Upstream-Name: binout
 Source: https://github.com/iikrllx/binout
 
-Files: debian/*
+Files: *
 Copyright: 2022 Kirill Rekhov
 License: GPL-3.0+
 
