@@ -1,3 +1,6 @@
+Bits Operations. Decimal and Binary numbers.
+Watch usage information for familiarization.
+
 $ binout -c 4294967295
 11111111111111111111111111111111(4294967295)
 
