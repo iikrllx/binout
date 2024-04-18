@@ -36,12 +36,12 @@ usage(int status)
 		fputs("\
 Bits Operations\n\
 \n\
-    -p, --position=<0-63>               a digit (bit position) between 0-63 range\n\
+    -p, --position=<0-63>               bit position between 0-63 range\n\
     -s, --set-bit=<dec>                 set the bit in the desired position\n\
     -u, --unset-bit=<dec>               unset the bit in the desired position\n\
     -w, --switch-bit=<dec>              switch the bit in the desired position\n\
-    -c, --check-bit=<num>               print the bits of the number\n\
-    -f, --find-flag <dec> <dec>         find a flag between two numbers\n\
+    -c, --check-bit=<dec>               print the bits of the number\n\
+    -f, --find-flag <dec> <dec>         find the flag between the two numbers\n\
     -o, --pow <base> <power>            power of the base number\n\
     -h, --help                          display this help and exit\n\
 \n\
