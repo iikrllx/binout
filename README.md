@@ -1,3 +1,13 @@
+<a href="https://github.com/iikrllx/binout">
+    <img src="https://img.shields.io/badge/it's%20nothing%20serious%20here-blue?style=for-the-badge">
+</a>
+<a href="https://github.com/iikrllx/binout">
+    <img src="https://img.shields.io/badge/simple-green?style=for-the-badge">
+</a>
+<a href="https://github.com/iikrllx/binout/blob/master/src/binout.c">
+    <img src="https://img.shields.io/badge/binout-red?style=for-the-badge">
+</a>
+
 # binout
 This simple program works with decimal numbers converting them to binary.
 The input data are decimal numbers, and the output is binary numbers.
