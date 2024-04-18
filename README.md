@@ -11,7 +11,7 @@ $ help x                 # for familarization
 $ print /t 3             # 11 (binary)
 $ print /x 255           # oxff (hexadecimal)
 $ print /o 255           # 0377 (octal)
-$ print /d 0XFF          # 255 (decimal)
+$ print /d 0Xff          # 255 (decimal)
 $ print 0b11111111       # 255 (decimal)
 ```
 
@@ -27,16 +27,16 @@ $ ./binout --help
 
 Check bit:
 ```
-$ ./binout -c 4294967295
-11111111111111111111111111111111(4294967295)
+$ ./binout -c 1234
+10011010010(1234)
 ```
 
 Find the flag between the two decimal numbers:
 ```
-$ ./binout -f 4294967295 12
+$ ./binout -f 1234 14
 Flag found:
-                            1100(12)
-11111111111111111111111111111111(4294967295)
+       1110(14)
+10011010010(1234)
 ```
 
 Unset the bit in the desired position:
@@ -53,8 +53,11 @@ $ ./binout -p 18 -s 32
 
 ## Installing the package in Debian
 If necessary, you can build a ```deb``` package with this program:
+```
 $ fakeroot dpkg-buildpackage -b -uc
 $ sudo apt install ../binout_1.0_amd64.deb
+```
 
 ## License
-This project is licensed under the GPLv3 License - see the LICENSE file for details
+This project is licensed under the GPLv3 License - see the
+[LICENSE](https://github.com/iikrllx/binout/blob/master/LICENSE) file for details.
