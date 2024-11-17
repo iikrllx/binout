@@ -67,7 +67,3 @@ If necessary, you can build a ```deb``` package with this program:
 $ fakeroot dpkg-buildpackage -b -uc
 $ sudo apt install ../binout_1.0_amd64.deb
 ```
-
-## License
-This project is licensed under the GPLv3 License - see the
-[LICENSE](https://github.com/iikrllx/binout/blob/master/LICENSE) file for details.
