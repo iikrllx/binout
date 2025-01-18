@@ -1,8 +1,14 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: binout
+Upstream-Contact: Kirill Rekhov <krekhov.dev@gmail.com>
 Source: https://github.com/iikrllx/binout
 
 Files: *
-Copyright: 2022 Kirill Rekhov
+Copyright: 2022 Kirill Rekhov <krekhov.dev@gmail.com>
+License: GPL-3.0+
+
+Files: debian/*
+Copyright: 2022 Kirill Rekhov <krekhov.dev@gmail.com>
 License: GPL-3.0+
 
 License: GPL-3.0+
